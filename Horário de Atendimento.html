@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horário de atendimento</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        table {
+            border: solid 1px gray;
+        }
+
+        table thead th {
+            background-color: rgb(206, 206, 206);
+        }
+        
+        table tbody tr:nth-child(even) td {
+            background-color: rgb(241, 224, 189);
+        }
+
+        table tbody tr:hover td{
+            background-color: rgb(231, 230, 126);
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="Página Principal.html">Página Principal</a></li>
+                <li><a href="Sobre a clínica.html">Sobre a clínica</a></li>
+                <li><a href="#">Horário de Atendimento</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                Header
+                <img src="horario de atendimento.jpg" alt="" width="1000    ">
+            </div>
+    
+            <div class="content">
+                <h3>Sobre nossos serviços</h3>
+                <p>Na Clínica, oferecemos cuidados de saúde integral, adaptados às necessidades individuais de cada paciente. Com instalações modernas e 
+                   equipamentos avançados, garantimos diagnósticos precisos e tratamentos eficazes.
+                </p>
+                <table summary="Tabela informando os horários de funcionamento da clínica" width="500" cellspacing="0" cellpadding="5">
+                    <thead>
+                        <tr id="cabeçalho">
+                            <th>Serviços</th>
+                            <th>Segunda a Sexta</th>
+                            <th>Sábados</th>
+                            <th>Feriados</th>
+                        </tr>
+                    </thead>
+                    
+                    <tbody align="center">
+                        <tr id="1">
+                            <td>Clínica geral</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 14h</td>
+                            <td>08h - 14h</td>
+                        </tr>
+    
+                        <tr id="2">
+                            <td>Psicologia</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 14h</td>
+                            <td>08h - 14h</td>
+                        </tr>
+    
+                        <tr id="3">
+                            <td>Pediatria</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 18h</td>
+                            <td>-</td>
+                        </tr>
+                    
+                        <tr id="4">
+                            <td>Oftalmologia</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 18h</td>
+                            <td>-</td>
+                        </tr>
+                    </tbody>
+                </table>    
+
+            </div>
+    
+            <div class="footer">
+                <p><strong>Localização:</strong> Rua Gonçalo de Carvalho – Porto Alegre, Rio Grande do Sul; <strong>CEP:</strong> 90035170</p>
+                <p><strong>Telefone:</strong> (27)1111-1111</p>
+                <p>de segunda a sexta, das <i><strong>8h</strong></i> às <i><strong>19h</strong></i> e aos sábados, das <i><strong>8h</strong></i> às <i><strong>14h</strong></i></p>
+                <a href="Sobre a clínica.html">Saiba mais</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
